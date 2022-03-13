@@ -21,3 +21,8 @@ $("#devicon").click(function () {
   $("#devicon").toggle();
   $("#devcontent").toggle();
 });
+$("#devcontent").click(function () {
+  $("#devtext").removeClass(["text-center", "fw-bolder"]);
+  $("#devicon").toggle();
+  $("#devcontent").toggle();
+});
