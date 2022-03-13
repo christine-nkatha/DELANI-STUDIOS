@@ -1,0 +1,29 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+input::focus {
+  border: none !important;
+  outline: none !important;
+}
+input::placeholder {
+  color: white;
+}
+
+textarea::placeholder {
+  color: white;
+}
+textarea::-webkit-input-placeholder {
+  color: white;
+}
+
+/* responsiveness */
+
+.mobilelanding {
+}
+@media (max-width: 500px) {
+  textarea {
+    width: 500;
+  }
+}
