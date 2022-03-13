@@ -3,6 +3,7 @@ $(document).ready(function () {
   $("#devcontent").toggle();
   $("#productcontent").toggle();
   $("#proj2hover").toggleClass("visually-hidden");
+  $("#proj1hover").toggleClass("visually-hidden");
 });
 
 //what we do logic
@@ -45,4 +46,7 @@ $("#productcontent").click(function () {
 
 $("#project2").hover(function () {
   $("#proj2hover").toggleClass("visually-hidden");
+});
+$("#project1").hover(function () {
+  $("#proj1hover").toggleClass("visually-hidden");
 });
