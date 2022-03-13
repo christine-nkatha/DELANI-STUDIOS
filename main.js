@@ -77,8 +77,16 @@ $("#project8").hover(function () {
 });
 
 //popup and toasting
-$("#messagebtn").click(function () {
+$("#myform").submit(function (e) {
+  e.preventDefault();
+
+  let name = $("#namefield").val();
+  let email = $("#emailfield").val();
+  let message = $("#messagebtn").val();
+
+  //connect mailchip api here
+
   $.toast(
-    "johndoe we have received your message. Thenks for reaching out to us"
+    `${name} johndoe we have received your message. Thenks for reaching out to us`
   );
 });
