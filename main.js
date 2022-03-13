@@ -5,6 +5,11 @@ $(document).ready(function () {
   $("#proj2hover").toggleClass("visually-hidden");
   $("#proj1hover").toggleClass("visually-hidden");
   $("#proj3hover").toggleClass("visually-hidden");
+  $("#proj4hover").toggleClass("visually-hidden");
+  $("#proj5hover").toggleClass("visually-hidden");
+  $("#proj6hover").toggleClass("visually-hidden");
+  $("#proj7hover").toggleClass("visually-hidden");
+  $("#proj8hover").toggleClass("visually-hidden");
 });
 
 //what we do logic
@@ -53,4 +58,13 @@ $("#project1").hover(function () {
 });
 $("#project3").hover(function () {
   $("#proj3hover").toggleClass("visually-hidden");
+});
+$("#project4").hover(function () {
+  $("#proj4hover").toggleClass("visually-hidden");
+});
+$("#project5").hover(function () {
+  $("#proj5hover").toggleClass("visually-hidden");
+});
+$("#project6").hover(function () {
+  $("#proj6hover").toggleClass("visually-hidden");
 });
