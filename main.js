@@ -9,3 +9,8 @@ $("#designcontent").click(function () {
   $("#designicon").toggle();
   $("#designcontent").toggle();
 });
+$("#designicon").click(function () {
+  $("#designtext").addClass(["text-center", "fw-bolder"]);
+  $("#designicon").toggle();
+  $("#designcontent").toggle();
+});
