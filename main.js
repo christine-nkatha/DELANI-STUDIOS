@@ -32,3 +32,9 @@ $("#producticon").click(function () {
   $("#producticon").toggle();
   $("#productcontent").toggle();
 });
+$("#productcontent").click(function () {
+  $("#producttext").removeClass(["text-center", "fw-bolder"]);
+
+  $("#producticon").toggle();
+  $("#productcontent").toggle();
+});
