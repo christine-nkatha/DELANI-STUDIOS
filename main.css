@@ -17,3 +17,13 @@ textarea::placeholder {
 textarea::-webkit-input-placeholder {
   color: white;
 }
+
+/* responsiveness */
+
+.mobilelanding {
+}
+@media (max-width: 500px) {
+  textarea {
+    width: 500;
+  }
+}
