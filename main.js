@@ -14,3 +14,10 @@ $("#designicon").click(function () {
   $("#designicon").toggle();
   $("#designcontent").toggle();
 });
+$("#devicon").click(function () {
+  $("#devtext").addClass(["text-center", "fw-bolder"]);
+  $("#devcontent").addClass(["text-center"]);
+
+  $("#devicon").toggle();
+  $("#devcontent").toggle();
+});
