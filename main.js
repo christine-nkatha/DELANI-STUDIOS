@@ -2,8 +2,10 @@ $(document).ready(function () {
   $("#designcontent").toggle();
   $("#devcontent").toggle();
   $("#productcontent").toggle();
+  $("#proj2hover").toggleClass("visually-hidden");
 });
 
+//what we do logic
 $("#designcontent").click(function () {
   $("#designtext").removeClass(["text-center", "fw-bolder"]);
   $("#designicon").toggle();
@@ -37,4 +39,10 @@ $("#productcontent").click(function () {
 
   $("#producticon").toggle();
   $("#productcontent").toggle();
+});
+
+//portfolio logic
+
+$("#project2").hover(function () {
+  $("#proj2hover").toggleClass("visually-hidden");
 });
