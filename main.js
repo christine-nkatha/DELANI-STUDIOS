@@ -13,6 +13,7 @@ $(document).ready(function () {
 });
 
 //what we do logic
+
 $("#designcontent").click(function () {
   $("#designtext").removeClass(["text-center", "fw-bolder"]);
   $("#designicon").toggle();
@@ -73,4 +74,11 @@ $("#project7").hover(function () {
 });
 $("#project8").hover(function () {
   $("#proj8hover").toggleClass("visually-hidden");
+});
+
+//popup and toasting
+$("#messagebtn").click(function () {
+  $.toast(
+    "johndoe we have received your message. Thenks for reaching out to us"
+  );
 });
