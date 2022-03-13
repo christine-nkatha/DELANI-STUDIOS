@@ -26,3 +26,9 @@ $("#devcontent").click(function () {
   $("#devicon").toggle();
   $("#devcontent").toggle();
 });
+$("#producticon").click(function () {
+  $("#producttext").addClass(["text-center", "fw-bolder"]);
+  $("#productcontent").addClass(["text-center"]);
+  $("#producticon").toggle();
+  $("#productcontent").toggle();
+});
