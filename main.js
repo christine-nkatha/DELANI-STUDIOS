@@ -71,3 +71,6 @@ $("#project6").hover(function () {
 $("#project7").hover(function () {
   $("#proj7hover").toggleClass("visually-hidden");
 });
+$("#project8").hover(function () {
+  $("#proj8hover").toggleClass("visually-hidden");
+});
