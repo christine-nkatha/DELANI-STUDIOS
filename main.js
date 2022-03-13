@@ -4,6 +4,7 @@ $(document).ready(function () {
   $("#productcontent").toggle();
   $("#proj2hover").toggleClass("visually-hidden");
   $("#proj1hover").toggleClass("visually-hidden");
+  $("#proj3hover").toggleClass("visually-hidden");
 });
 
 //what we do logic
@@ -49,4 +50,7 @@ $("#project2").hover(function () {
 });
 $("#project1").hover(function () {
   $("#proj1hover").toggleClass("visually-hidden");
+});
+$("#project3").hover(function () {
+  $("#proj3hover").toggleClass("visually-hidden");
 });
